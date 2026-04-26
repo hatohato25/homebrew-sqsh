@@ -7,12 +7,12 @@ class Sqsh < Formula
   on_macos do
     on_arm do
       url "https://github.com/hatohato25/sqsh/releases/download/v#{version}/sqsh-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "<sha256_of_aarch64_tarball>"
+      sha256 "e3d2fb3f968be317753a3673527df29ff7f50c7fdfe39c2b6dd094b421efccc4"
     end
 
     on_intel do
       url "https://github.com/hatohato25/sqsh/releases/download/v#{version}/sqsh-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "<sha256_of_x86_64_tarball>"
+      sha256 "20b71cc90aa27ef6e92e7b108f526cb153166fc5e4eed6bbf6d791786b52b8be"
     end
   end
 
