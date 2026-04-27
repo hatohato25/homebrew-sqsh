@@ -1,6 +1,6 @@
 class Sqsh < Formula
   desc "A TUI MySQL client for fast database exploration with fuzzy search"
-  homepage "https://github.com/hatohato25/sqsh"
+  homepage "https://hatohato25.github.io/sqsh/"
   version "0.1.0"
   license "MIT"
 
