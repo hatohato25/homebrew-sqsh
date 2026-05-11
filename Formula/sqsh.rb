@@ -10,7 +10,9 @@ class Sqsh < Formula
       sha256 "d68eda58a245a1becbedcbef46d27a1e1df5896496de98d3ddf0efffab4c474b"
     end
 
-    d28c3fd0e2380ec22f520ac654378b223639251b051856c70e00dfca4e4e2f1"
+    on_intel do
+      url "https://github.com/hatohato25/sqsh/releases/download/v#{version}/sqsh-v#{version}-x86_64-apple-darwin.tar.gz"
+      sha256 "6d28c3fd0e2380ec22f520ac654378b223639251b051856c70e00dfca4e4e2f1"
     end
   end
 
