@@ -1,18 +1,18 @@
 class Sqsh < Formula
   desc "A TUI MySQL client for fast database exploration with fuzzy search"
   homepage "https://hatohato25.github.io/sqsh/"
-  version "0.4.1"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/hatohato25/sqsh/releases/download/v#{version}/sqsh-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "f04c5a98a5ef4dbb3a716183730486e1f8136c3e925e0926268da82f757fa916"
+      sha256 "7d4507f8123f8055bcedae89da4d08379b549c97e58da8e811ed11ef698b12e2"
     end
 
     on_intel do
       url "https://github.com/hatohato25/sqsh/releases/download/v#{version}/sqsh-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "6d960ab7c21a10c3734994d87d1f8d9b71fdbba933ecde71391c8ff48ecac74c"
+      sha256 "002ce4b8b9790f32bfab03f3df9184d005c10ec92a054c14e08ab563c8f5f034"
     end
   end
 
